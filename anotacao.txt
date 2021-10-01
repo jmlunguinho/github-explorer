@@ -1,0 +1,20 @@
+yarn init -y
+yarn add react
+yarn add react-dom
+yarn add @babel/core @babel/cli @babel/preset-env -D
+yarn add @babel/preset-react -D
+yarn add webpack webpack-cli webpack-dev-server -D
+yarn add babel-loader -D
+yarn add html-webpack-plugin -D
+yarn add cross-env -D
+yarn add style-loader css-loader -D
+yarn add sass-loader -D
+yarn add node-sass -D
+yarn add typescript -D
+yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh
+yarn add @babel/preset-typescript -D
+yarn add @types/react-dom -D
+yarn add @types/react -D
+
+yarn tsc --init  -> cria arquivo de configuração typescript para o projeto
+yarn babel src/index.js --out-file dist/bundle.js  -> executar para gerar bundle via terminal
